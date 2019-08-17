@@ -34,18 +34,8 @@
           "ignoreRegExpLiterals": true
         }
       ],
-      "require-jsdoc": [
-        "error",
-        {
-          "require": {
-            "FunctionDeclaration": false,
-            "MethodDefinition": false,
-            "ClassDeclaration": false,
-            "ArrowFunctionExpression": false,
-            "FunctionExpression": false
-          }
-        }
-      ]
+      "require-jsdoc": 0,
+      "no-invalid-this": 0
     }
   },
   "browserslist": {
